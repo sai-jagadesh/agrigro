@@ -1,6 +1,6 @@
 {
   "id": "d59d25a7-e150-41bc-a3df-78954c04ba49",
-  "name": "Default Welcome Intent",
+  "name": "Greetings",
   "auto": true,
   "condition": "",
   "conditionalFollowupEvents": [],
