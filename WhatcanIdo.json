@@ -1,0 +1,284 @@
+{
+  "id": "e527f211-8d58-4d5b-be56-26963c9b25bd",
+  "name": "WhatcanIdo",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "condition": "",
+          "customizeAudio": false,
+          "items": [
+            {
+              "displayText": "I can help you with these things. What else I can do for you?",
+              "textToSpeech": "I can help you in saying the time, season in sowing crops, Telling about Good and Bad Bugs, Tell you about storage facility, Irrigation facility and many more.To know more see the TABLE below.What else I can do for you?",
+              "ssml": ""
+            }
+          ]
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "condition": "",
+          "title": "What Can I do ?",
+          "subtitle": "View here my friend !",
+          "columnProperties": [
+            {
+              "header": "S.NO",
+              "horizontalAlignment": "CENTER"
+            },
+            {
+              "header": "Things to do",
+              "horizontalAlignment": "CENTER"
+            },
+            {
+              "header": "Phrase",
+              "horizontalAlignment": "CENTER"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "1"
+                },
+                {
+                  "text": "Time, season in sowing crops"
+                },
+                {
+                  "text": "Help me with sowing crops"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "text": "2"
+                },
+                {
+                  "text": "Good Bugs"
+                },
+                {
+                  "text": "Help me with Good bugs"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "text": "3"
+                },
+                {
+                  "text": "Storage Facility"
+                },
+                {
+                  "text": "Help me with storage facility"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "text": "4"
+                },
+                {
+                  "text": "Irrigation"
+                },
+                {
+                  "text": "Help me with Irrigation facility"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "text": "5"
+                },
+                {
+                  "text": "Health of crops"
+                },
+                {
+                  "text": "Help me with health of crops"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "text": "6"
+                },
+                {
+                  "text": "Weather Condition"
+                },
+                {
+                  "text": "Help me with today's weather"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "text": "7"
+                },
+                {
+                  "text": "Bad Bugs"
+                },
+                {
+                  "text": "Help me with Bad bugs"
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "text": "8"
+                },
+                {
+                  "text": "Plays Songs"
+                },
+                {
+                  "text": "Play a Song"
+                }
+              ]
+            }
+          ],
+          "image": {},
+          "buttons": [
+            {
+              "openUrlAction": {}
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Sowing crops"
+            },
+            {
+              "title": "Good Bugs"
+            },
+            {
+              "title": "Bad Bugs"
+            },
+            {
+              "title": "Irrigation"
+            },
+            {
+              "title": "Play songs"
+            },
+            {
+              "title": "Weather"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I can help you in saying the time, the season in sowing crops, Telling about Good & Bad Bugs, Tell you about storage facility, Irrigation facility, and many more...."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Talk to My friend Agrian to see what it can do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a5409ec-a634-4373-b650-addf132dea6b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Talk to The Agrian to see what it can do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea358686-70a0-4f5e-9fc4-cdbe7ba527eb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can Agrian do ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d88e0c04-229f-42c9-b9a1-2cea587cdfc3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can you help me ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "927932c2-7ea5-4aa7-aded-7f6e280bbb57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can you do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa43dca6-c42d-4c39-847f-86b175514c9a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can I do ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "02f3be6e-a688-40d9-b49d-c23fc7680c10",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

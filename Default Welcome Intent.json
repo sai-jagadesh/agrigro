@@ -1,0 +1,312 @@
+{
+  "id": "d59d25a7-e150-41bc-a3df-78954c04ba49",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Hi, I am Agrigrò. I love helping farmers in farming, sowing, irrigation, and many other purposes."
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "condition": "",
+          "customizeAudio": false,
+          "items": [
+            {
+              "displayText": "Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes.",
+              "textToSpeech": "Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes. My developer is Sai Jagadesh. What would you like to do ?",
+              "ssml": ""
+            }
+          ]
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "condition": "",
+          "title": "WELCOME",
+          "subtitle": "Agrian Welcomes You !",
+          "formattedText": "Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes. I work with Google Assistant & Microsoft Bot framework. My developer is Sai Jagadesh S.",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/agrian-fikx.appspot.com/o/Cover%20Image.jpg?alt=media&token=c186697e-519a-41ef-8eb2-20a157ec095c",
+            "accessibilityText": "logo_agrian"
+          },
+          "buttons": [
+            {
+              "openUrlAction": {}
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "What can I do ?"
+            },
+            {
+              "title": "Sowing crops"
+            },
+            {
+              "title": "Good Bugs"
+            },
+            {
+              "title": "Bad Bugs"
+            },
+            {
+              "title": "Storage Facility"
+            },
+            {
+              "title": "Irrigation facility"
+            },
+            {
+              "title": "Check health of crops"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?",
+            "Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just going to say hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba0edc26-a608-4002-9a72-5b61fb38961a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "heya",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "454100f3-29ad-491a-a9d7-20af0b19364b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7658132b-b721-4aae-8b1d-8a8df637c572",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "howdy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5ba235dc-7a8a-4fb6-b58a-e99c2500c538",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "76b87539-9975-40a3-b5f9-b1bef7a95a57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi there",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "149ff315-0432-4c36-96a6-a7a217ef42f6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "greetings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "601dc7ff-b44c-4715-8bc5-6c744361a8ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "57e92711-2829-4e38-af8a-ae997f239451",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "long time no see",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "71eb40b4-db38-40cc-8640-d226aa224ab0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1458dd7-04d6-4d48-bf2f-de6b9337715a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "lovely day isn't it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4d2f5309-538b-494e-94c3-4bd0302a95aa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I greet you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7f8481e2-297d-40f3-bb25-1931594fe650",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c8eeb54-1e0a-41dc-be06-3ae5ef527e54",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "190d14d9-036c-4249-9a03-d8f3f0eb690b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "62feb2a8-01d1-4384-ac57-973e1999442b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "a good day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6a713496-2f30-4353-934e-85799af99035",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,265 @@
+{
+  "id": "a1f9d8ce-dc6c-4ae4-ace4-d029be503344",
+  "name": "getWeather",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "geo-city",
+          "dataType": "@sys.geo-city",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$geo-city",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "It is sunny now...You can sow crops which needs sun now.... 😎",
+            "It is cold now...Take care of your health..Mr.Backbone of India 🤗🥶",
+            "It is obviously going to rain now...Sow crops that need more water like Cucumber...Be ready to see the pleasure of gold coins 🥰🤑",
+            "It is obviously going to be windy...Protect your crops ! 😫",
+            "There is no presence of clouds here...Be Aware ! Anything can happen ! But most probably there will be no rain, ice or snow..Be carefull my friend... 😄"
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "condition": "",
+          "customizeAudio": false,
+          "items": [
+            {
+              "displayText": "It is sunny now...You can sow crops which needs sun now.... 😎",
+              "textToSpeech": "It is sunny now. You can sow crops which needs sun!What next?",
+              "ssml": ""
+            },
+            {
+              "displayText": "It is cold now...Take care of your health..Mr.Backbone of India 🤗🥶",
+              "textToSpeech": "It is cold now. Take care of your health friend. You are the Mr.Backbone of India..Next ?",
+              "ssml": ""
+            },
+            {
+              "displayText": "It is obviously going to rain now...Sow crops that need more water like Cucumber...Be ready to see the pleasure of gold coins 🥰🤑",
+              "textToSpeech": "It is obviously going to rain now...Sow crops that need more water like Cucumber...Be ready to see the pleasure of gold coins..What next?",
+              "ssml": ""
+            },
+            {
+              "displayText": "It is obviously going to be windy...Protect your crops ! 😫",
+              "textToSpeech": "It is obviously going to be windy...Protect your crops !What can I do for u then?",
+              "ssml": ""
+            },
+            {
+              "displayText": "There is no presence of clouds here...Be Aware ! Anything can happen ! But most probably there will be no rain, ice or snow..Be carefull my friend... 😄",
+              "textToSpeech": "There is no presence of clouds here...Be Aware ! Anything can happen ! But most probably there will be no rain, ice or snow..Be carefull my friend...How can I help you more ?",
+              "ssml": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Help me in sowing crops"
+            },
+            {
+              "title": "Good Bugs"
+            },
+            {
+              "title": "Bad Bugs"
+            },
+            {
+              "title": "Play a song"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "It is sunny now...You can sow crops which needs sun now.... 😎",
+            "It is cold now...Take care of your health..Mr.Backbone of India 🤗🥶",
+            "It is obviously going to rain now...Sow crops that need more water like Cucumber...Be ready to see the pleasure of gold coins 🥰🤑",
+            "It is obviously going to be windy...Protect your crops ! 😫",
+            "There is no presence of clouds here...Be Aware ! Anything can happen ! But most probably there will be no rain, ice or snow..Be carefull my friend... 😄"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I grow crops in this weather?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7a2bd504-cf96-4da0-a70e-0984d84de74e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it hot here?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe931b7a-f5a1-4856-b7b4-07c1e63358f4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it cold here?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "13944d44-5b5c-4150-a02b-d963004b6cff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the weather in ",
+          "userDefined": false
+        },
+        {
+          "text": "Dubai",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5190210-8309-4435-a830-862589e5ee06",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the weather in ",
+          "userDefined": false
+        },
+        {
+          "text": "Bangalore",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e576e4a6-d4eb-4526-b73a-75c3b0ffa3b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Weather in ",
+          "userDefined": false
+        },
+        {
+          "text": "Washington",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        }
+      ],
+      "count": 0,
+      "id": "cabc86b2-fd34-4396-8624-1f75a7718d7d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Weather in ",
+          "userDefined": false
+        },
+        {
+          "text": "Hosur",
+          "userDefined": false,
+          "alias": "geo-city",
+          "meta": "@sys.geo-city"
+        }
+      ],
+      "count": 0,
+      "id": "12c711e6-5722-4da4-b4c2-4d7112923520",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the weather now?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "01493a5f-df4f-45dc-8b61-7521a780c147",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the weather here?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b5698514-a0af-4acd-ac95-4ffbe11b3183",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

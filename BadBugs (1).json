@@ -1,0 +1,386 @@
+{
+  "id": "2ae96e27-1acb-49db-b3a3-4e3b35962efc",
+  "name": "BadBugs",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Bad Bugs",
+          "subtitle": "Stink Bugs are a pretty serious garden pest.  Fortunately, birds, toads, spiders, praying mantis, and parasitic wasps all love to eat them!",
+          "imageUrl": "https://3.bp.blogspot.com/-w4GlzWUMY2g/U96RzZZAHCI/AAAAAAAAw3g/97VVLLyw-uw/s1600/20140803_141039.jpg",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Aphids",
+          "subtitle": "Aphids love to munch on lupine as well as rose bushes and can quickly overtake a plant.   Spraying them with a dish soap/water mix and then hosing off the plant with plain water can help control aphids",
+          "imageUrl": "https://3.bp.blogspot.com/-Up3z7wsqmQY/V1C_G8cFwmI/AAAAAAABvZI/cp8m0FQ3wywPKr6YUIyktDhxd4ti8g3AACLcB/s640/aphids.jpg",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Squash Bug",
+          "subtitle": "Squash Bug eggs might be pretty, shiny coppery little orbs, but you don't want to see them on your squash plants.  They will hatch into little gray nymphs and then mature into destructive squash bugs, so destroy any you see.",
+          "imageUrl": "https://4.bp.blogspot.com/-OslrnmSZFaY/U95dbTXzYjI/AAAAAAAAwvg/yQICxE6il60/s1600/10443428_1442618732690447_1903598475422954118_n.jpg",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Cucumber Beetles",
+          "subtitle": "Cucumber Beetles are another menace to your garden. They will munch on pretty much any squash or melons, so my garden is like a buffet for them. This guy had to go, pretty as he may be. Planting marigolds and catnip, as well as mulching the plants, can help deter the cucumber beetle.",
+          "imageUrl": "https://1.bp.blogspot.com/-6X3QKarwHKE/V5eJWLI-N5I/AAAAAAAB0Ak/1mLNdTBONwEr4XemgkNHxEs9fUXDg1sMgCLcB/s640/cucumberbeetles-mating.jpg",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "June Bugs and Japanese Beetles",
+          "subtitle": "June Bugs and Japanese Beetles are not welcome in the garden either. More treats for our chickens! I always bring a mason jar with me to the garden and scoop any bad bugs I find into it. Then it's off to the chicken coop with the bugs along with any dropped blossoms and overripe or bug-eaten produce I find in the garden.",
+          "imageUrl": "https://3.bp.blogspot.com/-fJwxj_AuV5M/V5eIJbQxxiI/AAAAAAAB0AU/Z3LdzEJHsvE5iMizVGyDnkYnj8FkNZycwCLcB/s1600/japanese-beetle.jpg",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Cabbage Worms",
+          "subtitle": "Cabbage Worms are another pest you don't want to see. They will chew holes in your kale, cabbage, turnip, radish, broccoli, and cauliflower leaves.  They often hide on the underside of leaves, so sometimes your first sign of an infestation (besides the raggedy holes in the plant leaves) is tiny black spots on the leaves which is their poop.",
+          "imageUrl": "https://3.bp.blogspot.com/-8wLCKXNYRkU/VWMvN-w4UhI/AAAAAAABQug/kMdPr6HQYhQ/s640/cabbage-worm.jpg",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Colorado Potato Beetles",
+          "subtitle": "Colorado Potato Beetles will happily also eat your tomatoes, peppers, and eggplant, since they are also in the Solanaceae family, along with white potatoes.  The eggs are bright yellow and can be found on the underside of leaves, the larvae have bulbous bodies and blackheads, and the adults have telltale stripes.",
+          "imageUrl": "https://2.bp.blogspot.com/-aZdL6AjjdJo/WWKGSwxoFeI/AAAAAAACMWU/cALzD3Zhy2YMjtvVUWOYwjm-bcjMLCeJACLcBGAs/s640/potato-beetle.jpg",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Grasshoppers",
+          "subtitle": "Grasshoppers are another garden menace, although they prefer to munch on grass, so I generally leave the grasshoppers I find in the garden.  Fortunately, chickens love to eat crickets and grasshoppers.",
+          "imageUrl": "https://3.bp.blogspot.com/-vuPKixs9PQg/V1C-gm2szcI/AAAAAAABvY8/-6xcOPt5fXkWY2qL6-BxCnRcJtUcnN_TwCLcB/s640/grasshopper.jpg",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "condition": "",
+          "customizeAudio": false,
+          "items": [
+            {
+              "displayText": "Find the below bad bugs which would help you in your production 😊😊",
+              "textToSpeech": "Find the below bad bugs which would help you in your production. What else do you want to know about ?",
+              "ssml": ""
+            }
+          ]
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "condition": "",
+          "title": "Bad Bugs",
+          "items": [
+            {
+              "image": {
+                "url": "https://3.bp.blogspot.com/-w4GlzWUMY2g/U96RzZZAHCI/AAAAAAAAw3g/97VVLLyw-uw/s1600/20140803_141039.jpg",
+                "accessibilityText": "Stink_jpg"
+              },
+              "description": "Stink Bugs are a pretty serious garden pest.\n\nFortunately, birds, toads, spiders, praying mantis, and parasitic wasps all love to eat them!",
+              "title": "Stink Bugs",
+              "optionInfo": {
+                "key": "1",
+                "synonyms": []
+              }
+            },
+            {
+              "image": {
+                "url": "https://3.bp.blogspot.com/-Up3z7wsqmQY/V1C_G8cFwmI/AAAAAAABvZI/cp8m0FQ3wywPKr6YUIyktDhxd4ti8g3AACLcB/s640/aphids.jpg",
+                "accessibilityText": "aphids_jpg"
+              },
+              "description": "Aphids love to munch on lupine as well as rose bushes and can quickly overtake a plant. \n\nSpraying them with a dish soap/water mix and then hosing off the plant with plain water can help control aphids.",
+              "title": "Aphids",
+              "optionInfo": {
+                "key": "2",
+                "synonyms": []
+              }
+            },
+            {
+              "image": {
+                "url": "https://4.bp.blogspot.com/-OslrnmSZFaY/U95dbTXzYjI/AAAAAAAAwvg/yQICxE6il60/s1600/10443428_1442618732690447_1903598475422954118_n.jpg",
+                "accessibilityText": "squash_jpg"
+              },
+              "description": "Squash Bug eggs might be pretty, shiny coppery little orbs, but you don't want to see them on your squash plants. \nThey will hatch into little gray nymphs and then mature into destructive squash bugs, so destroy any you see.",
+              "title": "Squash Bug",
+              "optionInfo": {
+                "key": "3",
+                "synonyms": []
+              }
+            },
+            {
+              "image": {
+                "url": "https://1.bp.blogspot.com/-6X3QKarwHKE/V5eJWLI-N5I/AAAAAAAB0Ak/1mLNdTBONwEr4XemgkNHxEs9fUXDg1sMgCLcB/s640/cucumberbeetles-mating.jpg",
+                "accessibilityText": "cucumberb_jpg"
+              },
+              "description": "Cucumber Beetles are another menace to your garden.\nThey will munch on pretty much any squash or melons, so my garden is like a buffet for them.\nThis guy had to go, pretty as he may be.\nPlanting marigolds and catnip, as well as mulching the plants, can help deter the cucumber beetle.",
+              "title": "Cucumber Beetles",
+              "optionInfo": {
+                "key": "4",
+                "synonyms": []
+              }
+            },
+            {
+              "image": {
+                "url": "https://3.bp.blogspot.com/-fJwxj_AuV5M/V5eIJbQxxiI/AAAAAAAB0AU/Z3LdzEJHsvE5iMizVGyDnkYnj8FkNZycwCLcB/s1600/japanese-beetle.jpg",
+                "accessibilityText": "japneese.jpg"
+              },
+              "description": "June Bugs and Japanese Beetles are not welcome in the garden either. More treats for our chickens! I always bring a mason jar with me to the garden and scoop any bad bugs I find into it.\nThen it's off to the chicken coop with the bugs along with any dropped blossoms and overripe or bug-eaten produce I find in the garden.",
+              "title": "June Bugs and Japanese Beetles",
+              "optionInfo": {
+                "key": "5",
+                "synonyms": []
+              }
+            },
+            {
+              "image": {
+                "url": "https://3.bp.blogspot.com/-8wLCKXNYRkU/VWMvN-w4UhI/AAAAAAABQug/kMdPr6HQYhQ/s640/cabbage-worm.jpg",
+                "accessibilityText": "Cabbage.jpg"
+              },
+              "description": "Cabbage Worms are another pest you don't want to see. They will chew holes in your kale, cabbage, turnip, radish, broccoli, and cauliflower leaves.\n\nThey often hide on the underside of leaves, so sometimes your first sign of an infestation (besides the raggedy holes in the plant leaves) is tiny black spots on the leaves which is their poop.",
+              "title": "Cabbage Worms",
+              "optionInfo": {
+                "key": "6",
+                "synonyms": []
+              }
+            },
+            {
+              "image": {
+                "url": "https://2.bp.blogspot.com/-aZdL6AjjdJo/WWKGSwxoFeI/AAAAAAACMWU/cALzD3Zhy2YMjtvVUWOYwjm-bcjMLCeJACLcBGAs/s640/potato-beetle.jpg",
+                "accessibilityText": "Colorado Potato Beetles"
+              },
+              "description": "Colorado Potato Beetles will happily also eat your tomatoes, peppers, and eggplant, since they are also in the Solanaceae family, along with white potatoes.\n\nThe eggs are bright yellow and can be found on the underside of leaves, the larvae have bulbous bodies and blackheads, and the adults have telltale stripes.",
+              "title": "Colorado Potato Beetles",
+              "optionInfo": {
+                "key": "7",
+                "synonyms": []
+              }
+            },
+            {
+              "image": {
+                "url": "https://3.bp.blogspot.com/-vuPKixs9PQg/V1C-gm2szcI/AAAAAAABvY8/-6xcOPt5fXkWY2qL6-BxCnRcJtUcnN_TwCLcB/s640/grasshopper.jpg",
+                "accessibilityText": "Grasshoppers"
+              },
+              "description": "Grasshoppers are another garden menace, although they prefer to munch on grass, so I generally leave the grasshoppers I find in the garden.\n\nFortunately, chickens love to eat crickets and grasshoppers.",
+              "title": "Grasshoppers",
+              "optionInfo": {
+                "key": "8",
+                "synonyms": []
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Good Bugs"
+            },
+            {
+              "title": "What can I do"
+            },
+            {
+              "title": "Play a song 🙂"
+            },
+            {
+              "title": "Storage Facility"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Find the below bad bugs which would help you in your production. What else do you want to know about ?",
+            "Find the below bad bugs which would help you in your production 😊😊"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Squash",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e9996d26-e1dc-4dae-a4ec-f79af0e7e0c6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Aphids",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e9580709-aa1c-487a-9c54-a852548d5fa6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Stink bugs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bbcd576c-04d7-478c-b07c-64d10f0c89d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Talk to My friend Agrian about Harm bugs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4256722d-c3a7-43b5-a8a9-f45618c7366a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bad",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8bc4d1ea-4ecb-4dac-9805-7fd94e365090",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me about Bad Bugs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b50e3b82-b6ec-4be2-9cf1-25d0cafe795f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Worst Bugs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "11bc25c6-539d-459c-a217-c85a9e74d9ac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Harm bugs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe4c489d-14b2-48cc-9723-2889e18c7b35",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bad Bugs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75848ff2-8486-4703-97b5-c3ebcc406bf3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Help me with Bad Bugs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a54deaeb-ad0b-4603-a79a-d3257ddedc28",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
