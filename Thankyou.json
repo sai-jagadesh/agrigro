@@ -1,0 +1,154 @@
+{
+  "id": "6ba06014-d18e-4c5e-b839-4973510b5f06",
+  "name": "Thankyou",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "You are really a great person !! Bye and see you soon",
+            "Sayōnara ! Thats nothing but Bye in Japnese !",
+            "Bye..I will be there with you !",
+            "You made my day !"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want your support daily",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bd6e6118-20a7-4fab-8bc8-c3923eece976",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b78856f9-b821-428b-8953-29473b686e3e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bye",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94e222dd-32c9-4060-8da6-ad3051090bdf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thanks friend",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a0d2131a-fe56-4e46-bce4-63ada1b31485",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thanks you made my day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3405fea2-3fce-4b46-bc6c-77bd0173bb11",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thanks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3da3a0d1-d3c8-4891-b6b2-ab7cb2d2b6b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Good night",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f48374fb-5513-400f-b7c0-13c89508e5d9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Take care",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3d1ce1d-7c9f-49c0-91c7-db131fe7160f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Great help!",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "dc2a09db-1e24-4631-bd34-040703798d5d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
