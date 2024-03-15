@@ -12,8 +12,9 @@
     {
       "name": "WELCOME"
     },
-
-    
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
   ],
   "fallbackIntent": false,
   "liveAgentHandoff": false,
@@ -25,86 +26,63 @@
       "action": "input.welcome",
       "affectedContexts": [],
       "parameters": [],
-      "defaultResponsePlatforms": {
-        "telegram": true
-      },
+      "defaultResponsePlatforms": {},
       "messages": [
         {
-          "type": "message",
+          "type": "card",
           "platform": "telegram",
           "condition": "",
-          "speech": [
-            "Hi, I am Agrigrò. I love helping farmers in farming, sowing, irrigation, and many other purposes."
-          ]
-        },
-        {
-          "type": "simple_response",
-          "platform": "google",
-          "condition": "",
-          "customizeAudio": false,
-          "items": [
-            {
-              "displayText": "Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes.",
-              "textToSpeech": "Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes. My developer is Sai Jagadesh. What would you like to do ?",
-              "ssml": ""
-            }
-          ]
-        },
-        {
-          "type": "basic_card",
-          "platform": "google",
-          "condition": "",
-          "title": "WELCOME",
-          "subtitle": "Agrian Welcomes You !",
-          "formattedText": "Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes. I work with Google Assistant & Microsoft Bot framework. My developer is Sai Jagadesh S.",
-          "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/agrian-fikx.appspot.com/o/Cover%20Image.jpg?alt=media&token=c186697e-519a-41ef-8eb2-20a157ec095c",
-            "accessibilityText": "logo_agrian"
-          },
+          "title": "Hi, I am Agrigrò. I love helping farmers in farming, sowing, irrigation, and many other purposes.",
           "buttons": [
             {
-              "openUrlAction": {}
+              "text": "What can you do ?",
+              "postback": "/what"
             }
           ]
         },
         {
-          "type": "suggestion_chips",
-          "platform": "google",
+          "type": "custom_payload",
           "condition": "",
-          "suggestions": [
-            {
-              "title": "What can I do ?"
-            },
-            {
-              "title": "Sowing crops"
-            },
-            {
-              "title": "Good Bugs"
-            },
-            {
-              "title": "Bad Bugs"
-            },
-            {
-              "title": "Storage Facility"
-            },
-            {
-              "title": "Irrigation facility"
-            },
-            {
-              "title": "Check health of crops"
-            }
-          ]
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "subtitle": "Enchanting Agriculture!",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://firebasestorage.googleapis.com/v0/b/agrian-fikx.appspot.com/o/Untitled_logo_1_free-file%20(1)-modified.png?alt=media&token=ceaf751e-02f2-4e00-9b7c-66613d8ba999"
+                    }
+                  },
+                  "title": "Welcome to Agrigrò :)",
+                  "type": "info"
+                }
+              ]
+            ]
+          }
         },
         {
-          "type": "message",
+          "type": "custom_payload",
           "condition": "",
-          "speech": [
-            "Hi! How are you doing?",
-            "Hello! How can I help you?",
-            "Good day! What can I do for you today?",
-            "Greetings! How can I assist?",
-            "Hi, I am Agrian. I love helping farmers in farming, sowing, irrigation, and many other purposes."
-          ]
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "Best Experience on Telegram",
+                  "type": "button",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": ""
+                  },
+                  "link": "https://t.me/agrigro_bot",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  }
+                }
+              ]
+            ]
+          }
         }
       ],
       "resetContexts": false
@@ -113,6 +91,18 @@
   "rootParentId": null,
   "templates": [],
   "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "start",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9be9bfad-6bd1-41a5-9fb6-9363ba15d683",
+      "updated": null
+    },
     {
       "isTemplate": false,
       "data": [
