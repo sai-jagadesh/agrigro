@@ -7,7 +7,7 @@ with open('intents.json') as file:
     intents_data = json.load(file)
 
 # Extract crop data from intents
-crops_data = intents_data['intents'][1]['patterns']  # Assuming crop data is stored in the second intent (modify as needed)
+crops_data = intents_data['intents'][1]['patterns']  # Stored in second
 
 # Create DataFrame
 df = pd.DataFrame({"Crops": crops_data})
