@@ -1,0 +1,219 @@
+{
+  "id": "399b8dec-91ce-48e0-9a9a-411181250973",
+  "name": "Government_schemas",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+          "subtitle": "Under this scheme, small and marginal farmers receive direct income support of Rs. 6,000 per year in three equal installments. The scheme aims to provide financial assistance to farmers for meeting their cultivation needs and supporting their livelihoods.",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+          "subtitle": "PMFBY is a crop insurance scheme that provides comprehensive coverage against crop loss due to natural calamities, pests, and diseases. Farmers pay a nominal premium, with the remainder subsidized by the government. It aims to reduce the financial risks faced by farmers and ensure their financial stability.",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "National Agriculture Market (eNAM)",
+          "subtitle": "eNAM is an online platform that facilitates transparent and efficient trading of agricultural produce across different states and regions. It enables farmers to access a wider market and obtain better prices for their produce by eliminating intermediaries.",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+          "subtitle": "PMKSY aims to enhance water efficiency in agriculture through the implementation of irrigation projects, water conservation measures, and the adoption of precision irrigation techniques. The scheme focuses on ensuring water availability for all crops and promoting sustainable water management practices.",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Soil Health Card Scheme",
+          "subtitle": "Under this scheme, farmers receive soil health cards containing information about the health of their soil and recommendations for appropriate fertilization and soil management practices. It helps farmers make informed decisions regarding nutrient management and improves soil fertility and productivity.",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "National Mission for Sustainable Agriculture (NMSA)",
+          "subtitle": "NMSA promotes sustainable agriculture practices such as organic farming, integrated nutrient management, conservation farming, and agroforestry. The mission aims to enhance productivity, resilience, and sustainability in agriculture while mitigating climate change impacts.",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Rashtriya Krishi Vikas Yojana (RKVY)",
+          "subtitle": "RKVY provides financial assistance to states for implementing various agricultural development projects and initiatives aimed at increasing productivity, diversification, and infrastructure development in agriculture and allied sectors.",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "buttons": [
+            {}
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) - Under this scheme, small and marginal farmers receive direct income support of Rs. 6,000 per year in three equal installments. The scheme aims to provide financial assistance to farmers for meeting their cultivation needs and supporting their livelihoods.",
+            "PMFBY is a crop insurance scheme that provides comprehensive coverage against crop loss due to natural calamities, pests, and diseases. Farmers pay a nominal premium, with the remainder subsidized by the government. It aims to reduce the financial risks faced by farmers and ensure their financial stability.",
+            "eNAM is an online platform that facilitates transparent and efficient trading of agricultural produce across different states and regions. It enables farmers to access a wider market and obtain better prices for their produce by eliminating intermediaries.",
+            "PMKSY aims to enhance water efficiency in agriculture through the implementation of irrigation projects, water conservation measures, and the adoption of precision irrigation techniques. The scheme focuses on ensuring water availability for all crops and promoting sustainable water management practices.",
+            "Soil Health Card Scheme - Under this scheme, farmers receive soil health cards containing information about the health of their soil and recommendations for appropriate fertilization and soil management practices. It helps farmers make informed decisions regarding nutrient management and improves soil fertility and productivity."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Govt",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d72bb91f-42c2-4edb-8a2e-35da8da30bad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "scheme",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea14de4c-f0d3-46e6-a274-5050871056e9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Schemes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5de5d369-f625-4579-8b2b-c07c3663ba67",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "government",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7e9fc661-11e7-4c9a-89b3-ce11cf12667b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are some gov schemas for farmers",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "91ddd0aa-3b73-4bb1-92c6-d4418d1c3319",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are some government schemas for farmers",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f88e8022-d4b7-4651-90ba-b42398c5c887",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "gov schemas",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "92be1107-55e2-4ce8-a181-fe87f9e96e33",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "government schemas",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "23da0912-14b4-4810-8be8-5511a4b82a6a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

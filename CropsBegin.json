@@ -1,0 +1,204 @@
+{
+  "id": "ff20aafb-95a7-46f9-9e00-6b038816157c",
+  "name": "CropsBegin",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "CropsBegin-followup",
+          "lifespan": 15
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Ok great ! Which Month's crop you would like to know ? 😋😉😊"
+          ]
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Sowing of crops",
+          "subtitle": "Ok great ! Which Month's crop you would like to know ? 😋😉😊",
+          "buttons": [
+            {
+              "text": "January",
+              "postback": "january"
+            },
+            {
+              "text": "February",
+              "postback": "febuary"
+            },
+            {
+              "text": "March",
+              "postback": "march"
+            }
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "condition": "",
+          "customizeAudio": false,
+          "items": [
+            {
+              "displayText": "Ok great ! Which Month's crop you would like to know ? 😋😉😊",
+              "textToSpeech": "OK Great! Which month's crop you would like to know ? I will help you with maximum profit !",
+              "ssml": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "January"
+            },
+            {
+              "title": "February"
+            },
+            {
+              "title": "March"
+            },
+            {
+              "title": "April"
+            },
+            {
+              "title": "May"
+            },
+            {
+              "title": "June"
+            },
+            {
+              "title": "July"
+            },
+            {
+              "title": "August"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Ok great ! Which Month's crop you would like to know ? 😋😉😊",
+            "OK Great! Which month's crop you would like to know ? I will help you with maximum profit !"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Talk to My friend Agrian about sowing crops",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1d0939c2-a824-4561-9ee5-28762947967e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Sowing of crops",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0ff137a7-0c38-4e6e-a006-09185810082f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you help me with sowing of crops",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a03489ba-6f82-420f-9a54-68d05130d087",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Help me with crops",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7068538-7dd5-447c-a634-30089d9aa87d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Crops",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "54086b5d-793a-47f7-b70a-1bbaca6e8dd0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Sowing crops",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eb853a58-e529-415c-bce9-10e32dd904e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Help me with sowing crops",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be07e2d4-4245-41d9-9c52-34c3781fc0db",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
