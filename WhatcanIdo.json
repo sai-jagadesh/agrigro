@@ -22,173 +22,23 @@
       "defaultResponsePlatforms": {},
       "messages": [
         {
-          "type": "simple_response",
-          "platform": "google",
+          "type": "card",
+          "platform": "telegram",
           "condition": "",
-          "customizeAudio": false,
-          "items": [
-            {
-              "displayText": "I can help you with these things. What else I can do for you?",
-              "textToSpeech": "I can help you in saying the time, season in sowing crops, Telling about Good and Bad Bugs, Tell you about storage facility, Irrigation facility and many more.To know more see the TABLE below.What else I can do for you?",
-              "ssml": ""
-            }
-          ]
-        },
-        {
-          "type": "table_card",
-          "platform": "google",
-          "condition": "",
-          "title": "What Can I do ?",
-          "subtitle": "View here my friend !",
-          "columnProperties": [
-            {
-              "header": "S.NO",
-              "horizontalAlignment": "CENTER"
-            },
-            {
-              "header": "Things to do",
-              "horizontalAlignment": "CENTER"
-            },
-            {
-              "header": "Phrase",
-              "horizontalAlignment": "CENTER"
-            }
-          ],
-          "rows": [
-            {
-              "cells": [
-                {
-                  "text": "1"
-                },
-                {
-                  "text": "Time, season in sowing crops"
-                },
-                {
-                  "text": "Help me with sowing crops"
-                }
-              ]
-            },
-            {
-              "cells": [
-                {
-                  "text": "2"
-                },
-                {
-                  "text": "Good Bugs"
-                },
-                {
-                  "text": "Help me with Good bugs"
-                }
-              ]
-            },
-            {
-              "cells": [
-                {
-                  "text": "3"
-                },
-                {
-                  "text": "Storage Facility"
-                },
-                {
-                  "text": "Help me with storage facility"
-                }
-              ]
-            },
-            {
-              "cells": [
-                {
-                  "text": "4"
-                },
-                {
-                  "text": "Irrigation"
-                },
-                {
-                  "text": "Help me with Irrigation facility"
-                }
-              ]
-            },
-            {
-              "cells": [
-                {
-                  "text": "5"
-                },
-                {
-                  "text": "Health of crops"
-                },
-                {
-                  "text": "Help me with health of crops"
-                }
-              ]
-            },
-            {
-              "cells": [
-                {
-                  "text": "6"
-                },
-                {
-                  "text": "Weather Condition"
-                },
-                {
-                  "text": "Help me with today's weather"
-                }
-              ]
-            },
-            {
-              "cells": [
-                {
-                  "text": "7"
-                },
-                {
-                  "text": "Bad Bugs"
-                },
-                {
-                  "text": "Help me with Bad bugs"
-                }
-              ]
-            },
-            {
-              "cells": [
-                {
-                  "text": "8"
-                },
-                {
-                  "text": "Plays Songs"
-                },
-                {
-                  "text": "Play a Song"
-                }
-              ]
-            }
-          ],
-          "image": {},
+          "title": "What can I do ?",
+          "subtitle": "I can help you in saying the season for sowing crops, Telling about Good & Bad Bugs, Tell you about Storage facility, Irrigation guidance, Government Schemes and may more!",
           "buttons": [
             {
-              "openUrlAction": {}
-            }
-          ]
-        },
-        {
-          "type": "suggestion_chips",
-          "platform": "google",
-          "condition": "",
-          "suggestions": [
-            {
-              "title": "Sowing crops"
+              "text": "Sow Crops",
+              "postback": "/sowcrops"
             },
             {
-              "title": "Good Bugs"
+              "text": "Bad Bugs",
+              "postback": "/badbugs"
             },
             {
-              "title": "Bad Bugs"
-            },
-            {
-              "title": "Irrigation"
-            },
-            {
-              "title": "Play songs"
-            },
-            {
-              "title": "Weather"
+              "text": "Good Bugs",
+              "postback": "/goodbugs"
             }
           ]
         },
@@ -206,6 +56,18 @@
   "rootParentId": null,
   "templates": [],
   "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94c4135a-0a58-4ad9-b918-e2f1c4cd56f3",
+      "updated": null
+    },
     {
       "isTemplate": false,
       "data": [
