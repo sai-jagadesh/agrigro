@@ -106,142 +106,9 @@
           "subtitle": "Grasshoppers are another garden menace, although they prefer to munch on grass, so I generally leave the grasshoppers I find in the garden.  Fortunately, chickens love to eat crickets and grasshoppers.",
           "imageUrl": "https://3.bp.blogspot.com/-vuPKixs9PQg/V1C-gm2szcI/AAAAAAABvY8/-6xcOPt5fXkWY2qL6-BxCnRcJtUcnN_TwCLcB/s640/grasshopper.jpg",
           "buttons": [
-            {}
-          ]
-        },
-        {
-          "type": "simple_response",
-          "platform": "google",
-          "condition": "",
-          "customizeAudio": false,
-          "items": [
             {
-              "displayText": "Find the below bad bugs which would help you in your production 😊😊",
-              "textToSpeech": "Find the below bad bugs which would help you in your production. What else do you want to know about ?",
-              "ssml": ""
-            }
-          ]
-        },
-        {
-          "type": "list_card",
-          "platform": "google",
-          "condition": "",
-          "title": "Bad Bugs",
-          "items": [
-            {
-              "image": {
-                "url": "https://3.bp.blogspot.com/-w4GlzWUMY2g/U96RzZZAHCI/AAAAAAAAw3g/97VVLLyw-uw/s1600/20140803_141039.jpg",
-                "accessibilityText": "Stink_jpg"
-              },
-              "description": "Stink Bugs are a pretty serious garden pest.\n\nFortunately, birds, toads, spiders, praying mantis, and parasitic wasps all love to eat them!",
-              "title": "Stink Bugs",
-              "optionInfo": {
-                "key": "1",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://3.bp.blogspot.com/-Up3z7wsqmQY/V1C_G8cFwmI/AAAAAAABvZI/cp8m0FQ3wywPKr6YUIyktDhxd4ti8g3AACLcB/s640/aphids.jpg",
-                "accessibilityText": "aphids_jpg"
-              },
-              "description": "Aphids love to munch on lupine as well as rose bushes and can quickly overtake a plant. \n\nSpraying them with a dish soap/water mix and then hosing off the plant with plain water can help control aphids.",
-              "title": "Aphids",
-              "optionInfo": {
-                "key": "2",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://4.bp.blogspot.com/-OslrnmSZFaY/U95dbTXzYjI/AAAAAAAAwvg/yQICxE6il60/s1600/10443428_1442618732690447_1903598475422954118_n.jpg",
-                "accessibilityText": "squash_jpg"
-              },
-              "description": "Squash Bug eggs might be pretty, shiny coppery little orbs, but you don't want to see them on your squash plants. \nThey will hatch into little gray nymphs and then mature into destructive squash bugs, so destroy any you see.",
-              "title": "Squash Bug",
-              "optionInfo": {
-                "key": "3",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://1.bp.blogspot.com/-6X3QKarwHKE/V5eJWLI-N5I/AAAAAAAB0Ak/1mLNdTBONwEr4XemgkNHxEs9fUXDg1sMgCLcB/s640/cucumberbeetles-mating.jpg",
-                "accessibilityText": "cucumberb_jpg"
-              },
-              "description": "Cucumber Beetles are another menace to your garden.\nThey will munch on pretty much any squash or melons, so my garden is like a buffet for them.\nThis guy had to go, pretty as he may be.\nPlanting marigolds and catnip, as well as mulching the plants, can help deter the cucumber beetle.",
-              "title": "Cucumber Beetles",
-              "optionInfo": {
-                "key": "4",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://3.bp.blogspot.com/-fJwxj_AuV5M/V5eIJbQxxiI/AAAAAAAB0AU/Z3LdzEJHsvE5iMizVGyDnkYnj8FkNZycwCLcB/s1600/japanese-beetle.jpg",
-                "accessibilityText": "japneese.jpg"
-              },
-              "description": "June Bugs and Japanese Beetles are not welcome in the garden either. More treats for our chickens! I always bring a mason jar with me to the garden and scoop any bad bugs I find into it.\nThen it's off to the chicken coop with the bugs along with any dropped blossoms and overripe or bug-eaten produce I find in the garden.",
-              "title": "June Bugs and Japanese Beetles",
-              "optionInfo": {
-                "key": "5",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://3.bp.blogspot.com/-8wLCKXNYRkU/VWMvN-w4UhI/AAAAAAABQug/kMdPr6HQYhQ/s640/cabbage-worm.jpg",
-                "accessibilityText": "Cabbage.jpg"
-              },
-              "description": "Cabbage Worms are another pest you don't want to see. They will chew holes in your kale, cabbage, turnip, radish, broccoli, and cauliflower leaves.\n\nThey often hide on the underside of leaves, so sometimes your first sign of an infestation (besides the raggedy holes in the plant leaves) is tiny black spots on the leaves which is their poop.",
-              "title": "Cabbage Worms",
-              "optionInfo": {
-                "key": "6",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://2.bp.blogspot.com/-aZdL6AjjdJo/WWKGSwxoFeI/AAAAAAACMWU/cALzD3Zhy2YMjtvVUWOYwjm-bcjMLCeJACLcBGAs/s640/potato-beetle.jpg",
-                "accessibilityText": "Colorado Potato Beetles"
-              },
-              "description": "Colorado Potato Beetles will happily also eat your tomatoes, peppers, and eggplant, since they are also in the Solanaceae family, along with white potatoes.\n\nThe eggs are bright yellow and can be found on the underside of leaves, the larvae have bulbous bodies and blackheads, and the adults have telltale stripes.",
-              "title": "Colorado Potato Beetles",
-              "optionInfo": {
-                "key": "7",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://3.bp.blogspot.com/-vuPKixs9PQg/V1C-gm2szcI/AAAAAAABvY8/-6xcOPt5fXkWY2qL6-BxCnRcJtUcnN_TwCLcB/s640/grasshopper.jpg",
-                "accessibilityText": "Grasshoppers"
-              },
-              "description": "Grasshoppers are another garden menace, although they prefer to munch on grass, so I generally leave the grasshoppers I find in the garden.\n\nFortunately, chickens love to eat crickets and grasshoppers.",
-              "title": "Grasshoppers",
-              "optionInfo": {
-                "key": "8",
-                "synonyms": []
-              }
-            }
-          ]
-        },
-        {
-          "type": "suggestion_chips",
-          "platform": "google",
-          "condition": "",
-          "suggestions": [
-            {
-              "title": "Good Bugs"
-            },
-            {
-              "title": "What can I do"
-            },
-            {
-              "title": "Play a song 🙂"
-            },
-            {
-              "title": "Storage Facility"
+              "text": "Good Bugs",
+              "postback": "/goodbugs"
             }
           ]
         },
@@ -249,8 +116,10 @@
           "type": "message",
           "condition": "",
           "speech": [
-            "Find the below bad bugs which would help you in your production. What else do you want to know about ?",
-            "Find the below bad bugs which would help you in your production 😊😊"
+            "Stink Bugs are a pretty serious garden pest.  Fortunately, birds, toads, spiders, praying mantis, and parasitic wasps all love to eat them!",
+            "Aphids love to munch on lupine as well as rose bushes and can quickly overtake a plant.   Spraying them with a dish soap/water mix and then hosing off the plant with plain water can help control aphids",
+            "Squash Bug eggs might be pretty, shiny coppery little orbs, but you don't want to see them on your squash plants.  They will hatch into little gray nymphs and then mature into destructive squash bugs, so destroy any you see.",
+            "Cucumber Beetles are another menace to your garden. They will munch on pretty much any squash or melons, so my garden is like a buffet for them. This guy had to go, pretty as he may be. Planting marigolds and catnip, as well as mulching the plants, can help deter the cucumber beetle."
           ]
         }
       ],
@@ -260,6 +129,18 @@
   "rootParentId": null,
   "templates": [],
   "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "BadBugs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "746691a8-a4ed-4721-8b23-3890c4a7d2ce",
+      "updated": null
+    },
     {
       "isTemplate": false,
       "data": [
