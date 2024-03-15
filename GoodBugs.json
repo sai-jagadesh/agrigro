@@ -86,124 +86,13 @@
           "subtitle": "Ground Beetles are good guys.  They will eat potato beetles, corn earworms, squash vine borers, and slugs among other bad bugs",
           "imageUrl": "https://1.bp.blogspot.com/-uvV7S-vRdhE/U96Patsn2gI/AAAAAAAAw3M/_23WYUy63Us/s1600/20140803_141313.jpg",
           "buttons": [
-            {}
-          ]
-        },
-        {
-          "type": "simple_response",
-          "platform": "google",
-          "condition": "",
-          "customizeAudio": false,
-          "items": [
             {
-              "displayText": "Find the below good bugs which would help you in your production 😊😊What next?",
-              "textToSpeech": "Find the below good bugs which would help you in your production. What next ?",
-              "ssml": ""
-            }
-          ]
-        },
-        {
-          "type": "list_card",
-          "platform": "google",
-          "condition": "",
-          "title": "Good Bugs",
-          "items": [
-            {
-              "image": {
-                "url": "https://2.bp.blogspot.com/-XxQDUeuPRqk/U95bxMYObII/AAAAAAAAwvU/a8wTBXgf7DM/s1600/toad+3.jpg",
-                "accessibilityText": "toads_jpg"
-              },
-              "description": "They eat all sorts of insects, slugs and grubs.",
-              "title": "Toads",
-              "optionInfo": {
-                "key": "1",
-                "synonyms": []
-              }
+              "text": "Weather",
+              "postback": "/weather"
             },
             {
-              "image": {
-                "url": "https://2.bp.blogspot.com/-F2ZsXoGx_1c/U95qU1FeDVI/AAAAAAAAwxU/4g_4RLr-F9s/s1600/DSC00690.jpg",
-                "accessibilityText": "Bees_jpg"
-              },
-              "description": "Without bees, all these blossoms would not yield fruit and vegetables.\n\nThere are lots of different types of bees - honey bees, mason bees, bumblebees, to name a few - and they are all welcome",
-              "title": "Bees",
-              "optionInfo": {
-                "key": "2",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://4.bp.blogspot.com/-8SedryMMZnk/WUGKM-fZ8HI/AAAAAAACJps/-P4rhi8YG10dxE-JhI3pkj_aLREc8tDTQCLcBGAs/s640/spider.jpg",
-                "accessibilityText": "Spider_jpg"
-              },
-              "description": "Spiders will eat your bad bugs for you.\nDaddy Longlegs particularly enjoys dining on aphids, beetles, caterpillars, and flies.",
-              "title": "Spiders",
-              "optionInfo": {
-                "key": "3",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://2.bp.blogspot.com/-9KuXjadMnog/U95o3zECqSI/AAAAAAAAww4/g1GeiWcHxcA/s1600/20140726_111507.jpg",
-                "accessibilityText": "Dragonflies_jpg"
-              },
-              "description": "Dragonflies will eat nearly any insect they can find, and while they do eat the beneficial bees and even other dragonflies, I still consider them the good guys since they eat mosquitoes, flies and other bad bugs.",
-              "title": "Dragon Flies",
-              "optionInfo": {
-                "key": "4",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://1.bp.blogspot.com/-2WSiJs0F7OM/U95mBcGUv3I/AAAAAAAAwwg/41H9lvteJtc/s1600/DSC00693.jpg",
-                "accessibilityText": "ant_jpg"
-              },
-              "description": "Ants may not be welcome in the kitchen, but they are beneficial to a garden.\n\nThey unintentionally pollinate flowers by crawling through the pollen as they search for food. They help to aerate the soil by digging tunnels.",
-              "title": "Ants",
-              "optionInfo": {
-                "key": "5",
-                "synonyms": []
-              }
-            },
-            {
-              "image": {
-                "url": "https://1.bp.blogspot.com/-uvV7S-vRdhE/U96Patsn2gI/AAAAAAAAw3M/_23WYUy63Us/s1600/20140803_141313.jpg",
-                "accessibilityText": "beetles_jpg"
-              },
-              "description": "Ground Beetles are good guys.\n\nThey will eat potato beetles, corn earworms, squash vine borers, and slugs among other bad bugs.",
-              "title": "Ground Beetles",
-              "optionInfo": {
-                "key": "6",
-                "synonyms": []
-              }
-            }
-          ]
-        },
-        {
-          "type": "suggestion_chips",
-          "platform": "google",
-          "condition": "",
-          "suggestions": [
-            {
-              "title": "Bad Bugs"
-            },
-            {
-              "title": "Storage Facility"
-            },
-            {
-              "title": "Play music"
-            },
-            {
-              "title": "What can I do"
-            },
-            {
-              "title": "Weather"
-            },
-            {
-              "title": "Sowing"
+              "text": "Sow Crops",
+              "postback": "/sowcrops"
             }
           ]
         },
@@ -211,7 +100,7 @@
           "type": "message",
           "condition": "",
           "speech": [
-            "Find the below good bugs which would help you in your production 😊😊What next ?"
+            "Please use Telegram app to access this.."
           ]
         }
       ],
@@ -221,6 +110,18 @@
   "rootParentId": null,
   "templates": [],
   "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "GoodBugs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ce2126fb-a353-4f9c-8806-c741dc9348da",
+      "updated": null
+    },
     {
       "isTemplate": false,
       "data": [
