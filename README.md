@@ -24,4 +24,4 @@ This project is licensed under the [Apache License 2.0](LICENSE) - see the [LICE
 
 ## Acknowledgements
 
-- Special thanks to contributors, developers, or organizations that helped make this project possible.
+- Special thanks to Technica for considering our idea.
