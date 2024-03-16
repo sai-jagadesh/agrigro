@@ -1,6 +1,6 @@
-# Project Name
+# Agrigró - Enchanting Agriulture!
 
-A brief description of your project goes here.
+Agrigró is an AI-powered chatbot designed to assist farmers with crop management, pest control, and agricultural guidance.<br>Leveraging advanced natural language processing techniques, Agrigró provides insights and recommendations to optimize farming practices and maximize yields.
 
 ## Table of Contents
 
