@@ -20,7 +20,7 @@ Agrigró is an AI-powered chatbot designed to assist farmers with crop managemen
 
 ## License
 
-This project is licensed under the [License Name](LICENSE) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [Apache License 2.0](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
